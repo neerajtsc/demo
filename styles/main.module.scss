@@ -1,0 +1,52 @@
+.btn {
+    padding: 2% 15%;
+}
+
+.link {
+    &:hover {
+        text-decoration-style: dotted ;
+    }
+}
+
+.header{
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100vh;
+
+}
+.navbar{
+    z-index: 9999 !important;
+}
+.greenbutton{
+    margin-top: 2%;
+    background : transparent;
+    border-radius: 0%;
+    border: 2px solid white;
+    padding: 2% 4%;
+    color: #39b54a !important;
+}
+.greenbutton:hover{
+   background : #39b54a;
+   color: white !important;
+   border: 2px solid #39b54a;
+}
+.body{
+    position: relative;
+}
+.chat{
+    bottom: 18px;
+    right: 18px;
+    position: fixed;
+    z-index: 9999999;
+    border: 0px;
+
+    button{
+        background-color: #39b54a !important;
+    }
+}
+.textcolor{
+    color: #39b54a !important;
+}
+// .dropdown{
+//     background-color: #39b54a !important;
+// }
