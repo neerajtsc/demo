@@ -227,7 +227,6 @@ export default function Index() {
                         </div>
                     </div>
                     <div id="ai-doing">
-                        
                         <h2 class="ai-title">How&apos;s your
                             <span ><strong className="textcolor"> AI</strong></span> doing?
                         </h2>
@@ -238,12 +237,198 @@ export default function Index() {
                             </button>
                         </div>
                     </div>
+                    <div id="industry" className="my-5">
+                        <h1 className="text-center fw-bold mb-5">
+                            Achieve Visible <span className="textcolor">ROI</span> for your <span className="textcolor">AI </span>
+                            <br />in Weeks, not Years!
+                        </h1>
+                        <div className="container">
+                            <div className="d-flex flex-wrap Cardsgrid">
+                                <div className="row mb-3 cardflex">
+                                    <div className="d-flex flex-wrap justify-content-evenly">
+                                        <div className="flip-card-container mb-3 mx-2">
+                                            <div className="flip-card">
+                                                <div className="flip-card-front">
+                                                    <div className="d-flex align-items-center justify-content-center">
+                                                        <Image alt="A" className="img img-fluid flipimage" src="/images/budget.png" />
+                                                    </div>
+                                                    <h2 className="text-center fw-bold fs-3 mt-4">Banking/Finance</h2>
+                                                </div>
+                                                <div className="flip-card-back">
+                                                    <div className="">
+                                                        <h4 >Top Issues <span className="textcolor"> AI </span>
+                                                            can solve in
+                                                            <span className="textcolor"> Banking/Financial</span>
+                                                        </h4>
+                                                        <p>
+                                                            <span className="textcolor">●&nbsp;</span>Fraud Detection<br />
+                                                            <span className="textcolor">●</span>Credit Risk Analysis<br />
+                                                            <span className="textcolor">●</span>Recovery Prediction<br />
+                                                            <span className="textcolor">●</span>Underwriting Optimization
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="flip-card-container mb-3 mx-2">
+                                            <div className="flip-card">
+                                                <div className="flip-card-front">
+                                                    <div className="d-flex align-items-center justify-content-center">
+                                                        <Image alt="A" className="img img-fluid flipimage" src="/images/manufacturing.png" />
+                                                    </div>
+                                                    <h2 className="text-center fw-bold fs-3 mt-4">Manufacturing</h2>
+                                                </div>
+                                                <div className="flip-card-back">
+                                                    <div className="">
+                                                        <h4 >Top Issues <span className="textcolor"> AI</span>
+                                                            can solve in
+                                                            <span className="textcolor"> Banking/Financial</span>
+                                                        </h4>
+                                                        <p>
+                                                            <span className="textcolor">●&nbsp;</span>Fraud Detection<br />
+                                                            <span className="textcolor">●</span>Credit Risk Analysis<br />
+                                                            <span className="textcolor">●</span>Recovery Prediction<br />
+                                                            <span className="textcolor">●</span>Underwriting Optimization
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="flip-card-container mb-3 mx-2">
+                                            <div className="flip-card">
+                                                <div className="flip-card-front">
+                                                    <div className="d-flex align-items-center justify-content-center">
+                                                        <Image alt="A" className="img img-fluid flipimage" src="/images/store.png" />
+                                                    </div>
+                                                    <h2 className="text-center fw-bold fs-3 mt-4">Retail/Ecommerce</h2>
+                                                </div>
+                                                <div className="flip-card-back">
+                                                    <div className="">
+                                                        <h4 >Top Issues<span className="textcolor"> AI </span>
+                                                            can solve in
+                                                            <span className="textcolor"> Retail/Ecommerce</span>
+                                                        </h4>
+                                                        <p>
+                                                            <span className="textcolor">●&nbsp;</span>Fraud Detection<br />
+                                                            <span className="textcolor">●&nbsp;</span>Credit Risk Analysis<br />
+                                                            <span className="textcolor">●&nbsp;</span>Recovery Prediction<br />
+                                                            <span className="textcolor">●&nbsp;</span>Underwriting Optimization
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="flip-card-container mb-3 mx-2">
+                                            <div className="flip-card">
+                                                <div className="flip-card-front">
+                                                    <div className="d-flex align-items-center justify-content-center">
+                                                        <Image alt="A" className="img img-fluid flipimage" src="/images/insurance.png" />
+                                                    </div>
+                                                    <h2 className="text-center fw-bold fs-3 mt-4">Health</h2>
+                                                </div>
+                                                <div className="flip-card-back">
+                                                    <div className="">
+                                                        <h4 >Top Issues<span className="textcolor"> AI </span>
+                                                            can solve in
+                                                            <span className="textcolor"> Health</span>
+                                                        </h4>
+                                                        <p>
+                                                            <span className="textcolor">●&nbsp;</span>Fraud Detection<br />
+                                                            <span className="textcolor">●</span>Credit Risk Analysis<br />
+                                                            <span className="textcolor">●</span>Recovery Prediction<br />
+                                                            <span className="textcolor">●</span>Underwriting Optimization
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="flip-card-container mb-3 mx-2">
+                                            <div className="flip-card">
+                                                <div className="flip-card-front">
+                                                    <div className="d-flex align-items-center justify-content-center">
+                                                        <Image alt="A" className="img img-fluid flipimage" src="/images/telecommunications.png" />
+                                                    </div>
+                                                    <h2 className="text-center fw-bold fs-3 mt-4">Telecommunications</h2>
+                                                </div>
+                                                <div className="flip-card-back">
+                                                    <div className="">
+                                                        <h4 >Top Issues<span className="textcolor"> AI </span>
+                                                            can solve in
+                                                            <span className="textcolor"> Telecommunications</span>
+                                                        </h4>
+                                                        <p>
+                                                            <span className="textcolor">●&nbsp;</span>Fraud Detection<br />
+                                                            <span className="textcolor">●</span>Credit Risk Analysis<br />
+                                                            <span className="textcolor">●</span>Recovery Prediction<br />
+                                                            <span className="textcolor">●</span>Underwriting Optimization
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="achieve" className="my-5">
+                        <h1 className="text-center fw-bold mb-5">
+                            Achieve Visible <span className="textcolor">ROI</span> for your <span className="textcolor">AI </span>
+                            <br />in Weeks, not Years!
+                        </h1>
+                        <div className="row">
+                            <div className="col-md-4 p-4">
+                                <div className="d-flex justify-content-center my-4">
+                                    <Image alt="" src="/images/check-list.png" className="img img-fluid w-25" />
+                                </div>
+                                <div className="text-center">
+                                    <h3 className="fw-bold">
+                                        Technology Assessment
+                                    </h3>
+                                    <p>
+                                        Initiate discussions with the leadership,
+                                        followed by a quick technology assessment in
+                                        <span className="fw-bold">1–3 days.</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col-md-4 p-4">
+                                <div className="d-flex justify-content-center my-4">
+                                    <Image alt="" src="/images/production.png" className="img img-fluid w-25" />
+                                </div>
+                                <div className="text-center">
+                                    <h3 className="fw-bold">
+                                        Production Trial
+                                    </h3>
+                                    <p>
+                                        Build ready-to-integrate AI solutions using FA's fully automated data science & AI platform in
+                                        <span className="fw-bold">1–3 days.</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col-md-4 p-4">
+                                <div className="d-flex justify-content-center my-4">
+                                    <Image alt="" src="/images/distributed.png" className="img img-fluid w-25" />
+                                </div>
+                                <div className="text-center">
+                                    <h3 className="fw-bold">
+                                        Technology Assessment
+                                    </h3>
+                                    <p>
+                                        Integrate AI models with business and manage real-time results with advanced MLOps, in
+                                        <span className="fw-bold">1–3 days.</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                     <div id="ai-enterprise" className="m-0 p-0">
-                       <CloudUp/>
+                        <CloudUp />
                         <h2 className="enterprise mt-3">
                             Become an AI-powered enterprise <br />with
                             <span className="bgtext p-1 ms-2">FutureAnalytica</span>
-                            
+
                         </h2>
                         <h4 className="text-white">Experience the world&amps;s first & only end-to-end no-code<br /> AI platform.</h4>
                         <div className="mb-4">
@@ -251,7 +436,7 @@ export default function Index() {
                                 <h4 className="">BOOK A DEMO</h4>
                             </button>
                         </div>
-                    <CloudDown/>
+                        <CloudDown />
                     </div>
                 </div>
                 <footer className="footerContainer p-5">

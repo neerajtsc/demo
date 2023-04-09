@@ -200,3 +200,54 @@ p {
 .color-grey{
   background-color: #3E5062 !important;
 }
+
+/* Flip */
+.flip-card-container {
+  width: 350px;
+  height: 250px;
+  perspective: 1000px;
+  
+}
+
+.flip-card {
+  position: relative !important;
+    /* width: 100%; */
+    height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-container:hover .flip-card {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cardFontColor {
+  color: #fff;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  writing-mode: horizontal-tb;
+  padding: 9%;
+  background-color: #F2F2F2;
+}
+
+.flipimage{
+  width: 85px;
+}
