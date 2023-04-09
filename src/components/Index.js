@@ -18,6 +18,8 @@ import { useRouter } from "next/router";
 import 'aos/dist/aos.css';
 import Aos from "aos";
 import Typed from "react-typed";
+import CloudUp from "./CloudUp";
+import CloudDown from "./CloudDown";
 
 export default function Index() {
     useEffect(() => {
@@ -158,7 +160,7 @@ export default function Index() {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid">
+                <div className="container-fluid p-0">
                     <div id="who_we_are" className="row my-5">
                         <div className="col-6 m-0 p-0 image-container">
                             <Image alt="dummy" src="/images/teamwork.jpg" className="img img-fluid weimage" />
@@ -225,15 +227,31 @@ export default function Index() {
                         </div>
                     </div>
                     <div id="ai-doing">
+                        
                         <h2 class="ai-title">How&apos;s your
                             <span ><strong className="textcolor"> AI</strong></span> doing?
                         </h2>
-                        <h4>Talk to our experts today and see how we can help you<br/>expedite your data-to-insights journey with AI.</h4>
+                        <h4>Talk to our experts today and see how we can help you<br />expedite your data-to-insights journey with AI.</h4>
                         <div className="">
-                                <button className="ai-doing-button" >
-                                    <h4 className="">BOOK A DEMO</h4>
-                                </button>
-                            </div>
+                            <button className="ai-doing-button" >
+                                <h4 className="">BOOK A DEMO</h4>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="ai-enterprise" className="m-0 p-0">
+                       <CloudUp/>
+                        <h2 className="enterprise mt-3">
+                            Become an AI-powered enterprise <br />with
+                            <span className="bgtext p-1 ms-2">FutureAnalytica</span>
+                            
+                        </h2>
+                        <h4 className="text-white">Experience the world&amps;s first & only end-to-end no-code<br /> AI platform.</h4>
+                        <div className="mb-4">
+                            <button className="ai-doing-button" >
+                                <h4 className="">BOOK A DEMO</h4>
+                            </button>
+                        </div>
+                    <CloudDown/>
                     </div>
                 </div>
                 <footer className="footerContainer p-5">

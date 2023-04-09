@@ -103,6 +103,9 @@ p {
 .textcolor {
   color: #39b54a !important;
 }
+.bgtext{
+  background-color: #39b54a !important;
+}
 
 .weimage {
   margin-top: 12%;
@@ -181,4 +184,19 @@ p {
   background : #39b54a;
   color: white !important;
   border: 2px solid #39b54a;
+}
+#ai-enterprise{
+  text-align: center;
+  background-color: #3E5062;
+  margin: 100px 0px;
+}
+.enterprise{
+  color: #F2F2F2;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600 !important;
+    line-height: 1.35em !important;
+    font-size: 46px;
+}
+.color-grey{
+  background-color: #3E5062 !important;
 }
