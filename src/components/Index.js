@@ -45,8 +45,8 @@ export default function Index() {
                             muted playsinline loop style={{ width: "100%" }} src="videos/vid1.mp4" />
                     </div>
                     <div class="elementor-background-overlay"></div>
-                    <div className="elementor-content" >
-                        <div data-aos="fade-right" data-aos-delay="900" className="ms-4">
+                    <div className="elementor-content " >
+                        <div data-aos="fade-right" data-aos-delay="900" className="ms-4 element">
                             <span>Helping Enterprise</span>
                             <p>
                                 <span className="typed" data-typed-items="Build,Scale,Accelerate,Discover"></span>
@@ -107,7 +107,7 @@ export default function Index() {
                 </div>
                 <div className="container-fluid p-0">
                     <div id="who_we_are" className="row my-5">
-                        <div className="col-6 m-0 p-0 image-container">
+                        <div className="col-md-6 col-12 m-0 p-0 image-container">
                             <Image alt="dummy" src="/images/teamwork.jpg" className="img img-fluid weimage" />
                             <div className="image-numbers">
                                 <span>1000+</span>
@@ -116,7 +116,7 @@ export default function Index() {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-6 p-4">
+                        <div className="col-md-6 col-12 p-4">
                             <div className="ms-3 mb-4">
                                 <h2 className="fw-bold">WHO <span className="textcolor">WE</span> ARE</h2>
                                 <h1 className="fw-bold">
@@ -372,7 +372,7 @@ export default function Index() {
                         <CloudUp />
                         <h2 className="enterprise mt-3">
                             Become an AI-powered enterprise <br />with
-                            <span className="bgtext p-1 ms-2">FutureAnalytica</span>
+                            <span className="bgtext p-1 ms-2 future">FutureAnalytica</span>
 
                         </h2>
                         <h4 className="text-white">Experience the world&amps;s first & only end-to-end no-code<br /> AI platform.</h4>
