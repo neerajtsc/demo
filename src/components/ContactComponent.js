@@ -49,7 +49,7 @@ export default function ContectComponent() {
             <div className={`${styles.contectImage} col-md-6`}>
               <img
                 className={`${styles.contectMainImage}`}
-                src="./images/Contact-us-amico.svg"
+                src="./images/contact-img.png"
               />
             </div>
             <div
@@ -58,7 +58,7 @@ export default function ContectComponent() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1000 280"
+                viewBox="0 0 1000 200"
                 preserveAspectRatio="none"
               >
                 <path
