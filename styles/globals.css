@@ -251,28 +251,11 @@ p {
 .flipimage{
   width: 85px;
 }
-
-.elementor-shape[data-negative=false].elementor-shape-bottom, .elementor-shape[data-negative=true].elementor-shape-top {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-  padding: 0;
+@media only screen and (max-width: 600px){
+.future{
+  font-size: smaller;
 }
-
-.elementor-shape {
-  overflow: hidden;
-  /* position: absolute; */
-  left: 0;
-  width: 100%;
-  line-height: 0;
-  direction: ltr;
-  padding: 0;
+.element{
+  text-align: center;
 }
-
-.elementor-shape-bottom {
-  bottom: 145px;
-}
-
-.sub {
-  background-color: #39b54a !important;
 }
