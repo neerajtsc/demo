@@ -217,12 +217,12 @@
     height: 45px;
     border: 2px solid #39b54a !important;
     color: #39b54a !important;
-    border-radius: 0px;
+    border-radius: 0px !important;
     width: 100px;
     &:hover {
         border: 2px solid #39b54a !important;
         background-color: #39b54a !important;
-        color: #ffff;
+        color: #ffff !important;
         border-radius: 0px;
     }
 }
