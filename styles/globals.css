@@ -279,3 +279,14 @@ p {
 .elementor-shape-bottom {
   bottom: -1px;
 }
+
+.platformsvg{
+    background: #fff ;
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
