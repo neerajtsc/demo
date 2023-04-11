@@ -74,9 +74,9 @@ export default function ContectComponent() {
           </div>
         </div>
         <div className={`${styles.container}`}>
-          <section className="row">
+          <section className="row ">
             <div className={`${styles.companyDetails} col-md-7`}>
-              <h1>
+              <h1 className="fs-1 mt-5 pt-2">
                 Connect With <span>FutureAnalytica</span>
               </h1>
               <p>
