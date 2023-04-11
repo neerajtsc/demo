@@ -13,8 +13,10 @@ import {
   Row,
   Table,
 } from "react-bootstrap";
+import { useRouter } from "next/router";
 
 export default function FooterComponent() {
+  const router = useRouter();
   return (
     <>
       <Row>
@@ -73,9 +75,9 @@ export default function FooterComponent() {
           />
         </div>
         <div className="col-md-6 d-flex justify-content-around py-4">
-          <a className="text-white">About</a>
-          <a className="text-white">Platform</a>
-          <a className="text-white">Contact</a>
+          <a className="text-white" onClick={() => router.push('./')}>About</a>
+          <a className="text-white" onClick={() => router.push('./platform')}>Platform</a>
+          <a className="text-white" onClick={() => router.push('./contact')}>Contact</a>
         </div>
         <div className="col-md-3 d-flex justify-content-between py-4">
           <Image alt="" src="/images/facebookWhite.png" />
