@@ -384,7 +384,7 @@ export default function Index() {
                         <CloudDown />
                     </div>
                 </div>
-                <footer className="footerContainer p-5">
+                <footer className="footerContainer pt-5 pb-3 px-5 ">
                     <div>
                        <FooterComponent/>
                     </div>

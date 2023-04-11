@@ -63,7 +63,7 @@ export default function FooterComponent() {
         <div className="whiteLine my-4 "></div>
       </Row>
       <Row>
-        <div className="col-md-3 mt-4">
+        <div className="col-md-6 mt-4">
           <Image
             alt=""
             src="/images/logowhite.png"
@@ -72,31 +72,29 @@ export default function FooterComponent() {
             className="img img-fluid"
           />
         </div>
-        <div className="col-md-6 d-flex justify-content-around py-4">
-          <a className="text-white">About</a>
-          <a className="text-white">Platform</a>
-          <a className="text-white">Contact</a>
+        <div className="col-md-3  py-4">
+          <div className="py-2"><a className="text-white">About</a></div>
+          <div className="py-2"><a className="text-white">Platform</a></div>
+          <div className="py-2"><a className="text-white">Contact</a></div>
         </div>
-        <div className="col-md-3 d-flex justify-content-between py-4">
-          <Image alt="" src="/images/facebookWhite.png" />
+        {/* <div className="col-md-3 d-flex justify-content-between py-4">
+           <div><Image alt="" src="/images/facebookWhite.png" /></div>
           <Image alt="" src="/images/twitterWhite.png" />
           <Image alt="" src="/images/instagramWhite.png" />
           <Image alt="" src="/images/linkedinWhite.png" />
           <Image alt="" src="/images/youtubeWhite.png" />
           <Image alt="" src="/images/mWhite.png" />
-        </div>
-      </Row>
-      <Row className="whiteLine mt-4"></Row>
-      <Row className="text-white pt-5">
-        <div className="col-md-3 d-flex justify-content-between ps-5">
-          Privacy
-        </div>
-        <div className="col-md-6 d-flex justify-content-around">
-          <div>T&C</div>
-          <div>Sitemap</div>
-          <div>Cookie Policy</div>
-        </div>
-        <div className="col-md-3 d-flex justify-content-center">
+        </div> */}
+    
+        <div className="col-md-3 text-white py-4">
+           <div className="py-2">Privacy</div>
+          <div className="py-2">T&C</div>
+          <div className="py-2">Sitemap</div>
+       
+          </div>
+        </Row>
+       <Row className="pt-2 text-white">
+        <div className=" d-flex justify-content-center">
           Copyright@2023TechSuperior
         </div>
       </Row>
