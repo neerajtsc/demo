@@ -57,7 +57,7 @@ export default function NavbarComponent() {
             <Nav.Link className="mx-2 text-white" onClick={() => router.push('/')}>
               About
             </Nav.Link>
-            <Nav.Link className="mx-2 text-white" href="#platform">
+            <Nav.Link className="mx-2 text-white" href="#platform" onClick={() => router.push('./platform')}>
               Platform
             </Nav.Link>
             <Nav.Link className="mx-2 text-white" onClick={() => router.push('./contact')}>
