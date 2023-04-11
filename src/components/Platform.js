@@ -43,7 +43,7 @@ function Platform() {
         <div id="1" className="home row my-5">
           <div className="col-md-6 p-1" data-aos="fade-right" data-aos-delay="700">
             <Image
-              src="./images/picture1.png"
+              src="./images/Picture1.png"
               alt="desktop"
               className={`${styles.desktopimg}`}
             />
@@ -76,7 +76,7 @@ function Platform() {
           </div>
           <div className="col-md-6 p-1" data-aos="fade-left" data-aos-delay="700">
             <Image
-              src="./images/picture1.png"
+              src="./images/Picture1.png"
               alt="desktop"
               className={`${styles.desktopimg}`}
             />
@@ -85,7 +85,7 @@ function Platform() {
         <div id="3" className="home row my-5">
           <div className="col-md-6 p-1" data-aos="fade-right" data-aos-delay="700">
             <Image
-              src="./images/picture1.png"
+              src="./images/Picture1.png"
               alt="desktop"
               className={`${styles.desktopimg}`}
             />
@@ -118,7 +118,7 @@ function Platform() {
           </div>
           <div className="col-md-6 p-1" data-aos="fade-left" data-aos-delay="700">
             <Image
-              src="./images/picture1.png"
+              src="./images/Picture1.png"
               alt="desktop"
               className={`${styles.desktopimg}`}
             />
@@ -127,7 +127,7 @@ function Platform() {
         <div id="5" className="home row my-5">
           <div className="col-md-6 p-1" data-aos="fade-right" data-aos-delay="700">
             <Image
-              src="./images/picture1.png"
+              src="./images/Picture1.png"
               alt="desktop"
               className={`${styles.desktopimg}`}
             />
@@ -160,7 +160,7 @@ function Platform() {
           </div>
           <div className="col-md-6 p-1" data-aos="fade-left" data-aos-delay="700">
             <Image
-              src="./images/picture1.png"
+              src="./images/Picture1.png"
               alt="desktop"
               className={`${styles.desktopimg}`}
             />
