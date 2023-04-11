@@ -346,7 +346,7 @@ export default function Index() {
                                         Production Trial
                                     </h3>
                                     <p>
-                                        Build ready-to-integrate AI solutions using FA's fully automated data science & AI platform in
+                                        Build ready-to-integrate AI solutions using FAs fully automated data science & AI platform in
                                         <span className="fw-bold">1–3 days.</span>
                                     </p>
                                 </div>
