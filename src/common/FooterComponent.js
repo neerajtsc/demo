@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import styles from "../styles/main.module.scss";
 import {
   Button,
   Card,
@@ -12,7 +13,6 @@ import {
   Row,
   Table,
 } from "react-bootstrap";
-import styles from "../../styles/main.module.scss";
 
 export default function FooterComponent() {
   return (

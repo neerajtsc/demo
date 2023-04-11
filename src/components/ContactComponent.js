@@ -14,7 +14,7 @@ import {
   Table,
 } from "react-bootstrap";
 import { IconMessage2, IconMessageCircle2 } from "@tabler/icons";
-import styles from "../../styles/main.module.scss";
+import styles from "../styles/main.module.scss";
 import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 import NavbarComponent from "../common/NavbarComponent";

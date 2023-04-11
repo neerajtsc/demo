@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import Typed from "react-typed";
-import styles from "../../styles/main.module.scss";
+import styles from "../styles/main.module.scss";
 import NavbarComponent from "../common/NavbarComponent";
 import SvgComponent from "./PlatformSvg"
 import FooterComponent from "../common/FooterComponent";

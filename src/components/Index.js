@@ -13,7 +13,7 @@ import {
     Table,
   } from "react-bootstrap";
 import { IconMessage2, IconMessageCircle2, IconSearch } from "@tabler/icons";
-import styles from "../../styles/main.module.scss";
+import styles from "../styles/main.module.scss";
 import { useRouter } from "next/router";
 import "aos/dist/aos.css";
 import Aos from "aos";

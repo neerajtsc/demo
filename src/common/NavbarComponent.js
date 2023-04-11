@@ -12,7 +12,7 @@ import {
   Row,
   Table,
 } from "react-bootstrap";
-import styles from "../../styles/main.module.scss";
+import styles from "../styles/main.module.scss";
 import { useRouter } from "next/router";
 
 export default function NavbarComponent() {
