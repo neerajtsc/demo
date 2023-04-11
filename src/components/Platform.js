@@ -5,10 +5,13 @@ function Platform() {
   return (
     <>
       <div className="container">
-        <div className=""></div>
+        <div className="">
+
+          
+        </div>
         <div className="home row">
           <div className="col-md-6">
-            <Image src="images/picture1.png" />
+            <Image src="images/picture1.png"  alt=""/>
           </div>
           <div className="col-md-6">
             <h1></h1>
