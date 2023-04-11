@@ -4,6 +4,7 @@ import Typed from "react-typed";
 import styles from "../../styles/main.module.scss";
 import NavbarComponent from "../common/NavbarComponent";
 import SvgComponent from "./PlatformSvg"
+import FooterComponent from "../common/FooterComponent";
 
 function Platform() {
   return (
@@ -50,6 +51,17 @@ function Platform() {
             </div>
           </div>
         </div>
+        <div className="Datasection row">
+            <div className="col-md-6"></div>
+            <div className="col-md-6">
+                <Image src="" alt="data"/>
+            </div>
+        </div>
+        <footer className="footerContainer p-5">
+            <div>
+                <FooterComponent/>
+            </div>
+        </footer>
       </div>
     </>
   );
