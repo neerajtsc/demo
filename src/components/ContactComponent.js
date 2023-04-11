@@ -59,7 +59,7 @@ export default function ContectComponent() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1000 280"
+                viewBox="0 0 1000 200"
                 preserveAspectRatio="none"
               >
                 <path
