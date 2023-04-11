@@ -13,8 +13,10 @@ import {
   Row,
   Table,
 } from "react-bootstrap";
+import { useRouter } from "next/router";
 
 export default function FooterComponent() {
+  const router = useRouter();
   return (
     <>
       <Row>
