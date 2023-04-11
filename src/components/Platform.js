@@ -17,8 +17,8 @@ function Platform() {
               <video className="elementor-background-video-hosted elementor-html5-video" controls={false} autoplay="autoplay"
                 muted playsinline loop style={{ width: "100%" }} src="videos/vid2.mp4" />
             </div>
-            <div class="elementor-background-overlay"></div>
-            <div className="elementor-content " >
+            <div className="elementor-background-overlay"></div>
+            <div className="elementor-content-platform">
               <div data-aos="fade-right" data-aos-delay="900" className="ms-4 element">
                 <h4 className="text-white">WORLD&#39;S 1ST & ONLY</h4>
                 <span>E2E <span className="textcolor">NO CODE</span> <br/>
@@ -26,7 +26,10 @@ function Platform() {
                 </span>
               </div>
             </div>
-            <SvgComponent/>
+            <div className={`${styles.svgComponent}`}>
+              {/* <SvgComponent/> */}
+              <Image src="images/background.png" alt=""/>
+            </div>
           </div>
 
         </div>
