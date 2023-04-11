@@ -15,7 +15,7 @@ import {
 import { IconMessage2, IconMessageCircle2, IconSearch } from "@tabler/icons";
 import styles from "../../styles/main.module.scss";
 import { useRouter } from "next/router";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import Aos from "aos";
 import Typed from "react-typed";
 import CloudUp from "./CloudUp";
@@ -81,7 +81,7 @@ export default function Index() {
                         </div>
                         <div className="col-md-3 text-center">
                             <div className="numbers">
-                                {'>30x'}
+                                {`>30x`}
                             </div>
                             <div className="counter-title fw-bold">DATA SECURITY &amp; PRIVACY</div>
                             <p className="text-white fs-6">With GDPR, SOC-2 &amp; ISO 27001,<br />Built On Blockchain &amp; AWS
@@ -89,7 +89,7 @@ export default function Index() {
                         </div>
                         <div className="col-md-3 text-center">
                             <div className="numbers">
-                                {'>40x'}
+                                {`>40x`}
                             </div>
                             <div className="counter-title fw-bold">DATA SECURITY &amp; PRIVACY</div>
                             <p className="text-white fs-6">With GDPR, SOC-2 &amp; ISO 27001,<br />Built On Blockchain &amp; AWS
@@ -126,7 +126,7 @@ export default function Index() {
                             </div>
                             <div className="ms-3">
                                 <p>
-                                    Ours is the world’s first &amp;
+                                    Ours is the world&#39;s first &amp;
                                     only end-to-end platform for all your AI-powered innovation needs — right from data cleansing &amp;
                                     structuring, to creating &amp;
                                     deploying advanced data-science models, to infusing advanced analytics algorithms with a built-in Recommendation AI,
@@ -346,7 +346,7 @@ export default function Index() {
                                         Production Trial
                                     </h3>
                                     <p>
-                                        Build ready-to-integrate AI solutions using FA's fully automated data science & AI platform in
+                                        Build ready-to-integrate AI solutions using FA s fully automated data science & AI platform in
                                         <span className="fw-bold">1–3 days.</span>
                                     </p>
                                 </div>

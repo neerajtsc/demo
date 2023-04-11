@@ -47,7 +47,7 @@ export default function ContectComponent() {
               <span className={`${styles.contactTextSpan}`}>Contact</span>
             </div>
             <div className={`${styles.contectImage} col-md-6`}>
-              <img
+              <Image
                 className={`${styles.contectMainImage}`}
                 src="./images/Contact-us-amico.svg"
               />
@@ -79,7 +79,7 @@ export default function ContectComponent() {
                 Connect With <span>FutureAnalytica</span>
               </h1>
               <p>
-                We're just one click away to assist you in making your business
+                We re just one click away to assist you in making your business
                 smart using AI.
               </p>
             </div>
@@ -136,7 +136,7 @@ export default function ContectComponent() {
                         )}
                       </>
                     )}
-                    <label className="mx-2">i'm not a robot</label>
+                    <label className="mx-2">i m not a robot</label>
                   </div>
                   <div className={`${styles.cepchaImgDiv}`}>
                     <div>
