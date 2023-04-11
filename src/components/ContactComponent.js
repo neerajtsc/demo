@@ -49,7 +49,8 @@ export default function ContectComponent() {
             <div className={`${styles.contectImage} col-md-6`}>
               <Image
                 className={`${styles.contectMainImage}`}
-                src="./images/contact-img.png"
+                src="./images/Contact-us-amico.svg"
+                alt=""
               />
             </div>
             <div
@@ -79,7 +80,7 @@ export default function ContectComponent() {
                 Connect With <span>FutureAnalytica</span>
               </h1>
               <p>
-                We re just one click away to assist you in making your business
+                We are just one click away to assist you in making your business
                 smart using AI.
               </p>
             </div>
@@ -129,20 +130,21 @@ export default function ContectComponent() {
                       <>
                         {!isLoading ? (
                           <div>
-                            <img src="./images/check-right.png" />
+                            <Image src="./images/check-right.png" alt=""/>
                           </div>
                         ) : (
                           <ClipLoader color="#36d7b7" />
                         )}
                       </>
                     )}
-                    <label className="mx-2">i m not a robot</label>
+                    <label className="mx-2">i am not a robot</label>
                   </div>
                   <div className={`${styles.cepchaImgDiv}`}>
                     <div>
-                      <img
+                      <Image
                         className={`${styles.capchaImg}`}
                         src="./images/capcha.png"
+                        alt=""
                       />
                       <span className={`${styles.reCapcha}`}>reCAPTCHA</span>
                     </div>
